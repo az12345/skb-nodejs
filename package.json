@@ -61,6 +61,7 @@
     "prct022": "nodemon --exec babel-node -- src/prct022/index.js",
     "task02a": "nodemon --exec babel-node -- src/task02a/index.js",
     "task02b": "nodemon --exec babel-node -- src/task02b/index.js",
+    "task02c": "nodemon --exec babel-node -- src/task02c/index.js",
     "start": "easystatic start docs"
   }
 }
