@@ -5,29 +5,21 @@
 ## Урок #2: Hello JS World
 
 ### 1. Канонизация @username
-- PATH: /src/prct021/index.js
-- START: npm run prct021
-- http://localhost:3000/prct021
-
-| PATH  | /src/prct021/index.js  |
-| START  | npm run prct021  |
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+* **PATH** /src/prct021/index.js
+* **START** npm run prct021
+* **URL** http://localhost:3000/prct021
 
 ###2. Самый “толстый” покемон
-  * /src/prct022/index.js
-  * npm run prct022
-  * http://localhost:3000/prct022
+* **PATH** /src/prct022/index.js
+* **START** npm run prct022
+* **URL** http://localhost:3000/prct022
 
 ###Задача #2A: A + B
-  * /src/task02a/index.js
-  * npm run task02a
-  * http://localhost:3000/task02a
+* **PATH** /src/task02a/index.js
+* **START** npm run task02a
+* **URL** http://localhost:3000/task02a
 
-- **Задача #2B: Фамилия И. О.**
+###Задача #2B: Фамилия И. О.
 
 ## Урок #3: Express.js & MongoDB
 
@@ -35,14 +27,13 @@
 
 ## Setup
 - git clone https://github.com/isuvorov/babel-starter-kit
-- ```npm i
-  npm i -S express
-  npm i -S isomorphic-fetch es6-promise
-  npm i -S bluebird
-  npm i -S lodash
-  npm i -S cors
-```
+-
+npm i
+npm i -S express
+npm i -S isomorphic-fetch es6-promise
+npm i -S bluebird
+npm i -S lodash
+npm i -S cors
 
 - HTTPie - https://httpie.org/
-
-  ```brew install httpie```
+brew install httpie
