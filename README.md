@@ -8,22 +8,23 @@
 ***
 
 1. Канонизация @username
-  /src/prct021/index.js
-  npm run prct021
-  http://localhost:3000/prct021
+  - /src/prct021/index.js
+  - npm run prct021
+  - http://localhost:3000/prct021
 
 2. Самый “толстый” покемон
-  /src/prct022/index.js
-  npm run prct022
-  http://localhost:3000/prct022
+  - /src/prct022/index.js
+  - npm run prct022
+  - http://localhost:3000/prct022
 
 *** Домашнее задание:
 ***
 
 Задача #2A: A + B
-  /src/task02a/index.js
-  npm run task02a
-  http://localhost:3000/task02a
+=================
+  - /src/task02a/index.js
+  - npm run task02a
+  - http://localhost:3000/task02a
 
 - 2B: Фамилия И. О.
 
