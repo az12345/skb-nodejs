@@ -20,6 +20,9 @@
 * **URL** http://localhost:3000/task02a
 
 ###Задача #2B: Фамилия И. О.
+* **PATH** /src/task02b/index.js
+* **START** npm run task02b
+* **URL** http://localhost:3000/task02b
 
 ## Урок #3: Express.js & MongoDB
 
