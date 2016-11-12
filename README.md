@@ -1,13 +1,16 @@
 # Куср: DEV-Intensive Node.js & React.js
 
-* Студент: Marsel Alamdar *
+*Студент: Marsel Alamdar*
 
 ## Урок #2: Hello JS World
 
-- **1. Канонизация @username**
-  + /src/prct021/index.js
-  + npm run prct021
-  + http://localhost:3000/prct021
+### 1. Канонизация @username
+- PATH: /src/prct021/index.js
+- START: npm run prct021
+- http://localhost:3000/prct021
+
+| PATH  | /src/prct021/index.js  |
+| START  | npm run prct021  |
 
 - **2. Самый “толстый” покемон**
   + /src/prct022/index.js
