@@ -24,10 +24,6 @@ app.get('/task02b', async (req, res) => {
     // const fullnameStr = _.toString(req.query.fullname);
     let fullnameStr = _.trim(req.query.fullname);
     fullnameStr = _.replace(fullnameStr, /\s+/g, ' ');
-    fullnameStr = _.replace(fullnameStr, /\t/g, '');
-    fullnameStr = _.replace(fullnameStr, /\r/g, '');
-    fullnameStr = _.replace(fullnameStr, /\n/g, '');
-    fullnameStr = _.replace(fullnameStr, /\v/g, '');
 
     if (__DEV__) console.log(`--Q ${fullnameStr}`);
     if (__DEV__) console.log(`--QR ${fullnameStr}`);
