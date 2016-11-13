@@ -24,19 +24,27 @@
 * **START** npm run task02b
 * **URL** http://localhost:3000/task02b
 
+###Задача #2C: @username
+* **PATH** /src/task02c/index.js
+* **START** npm run task02c
+* **URL** http://localhost:3000/task02c
+
 ## Урок #3: Express.js & MongoDB
 
 ###Задача #3A: API 80286
 
 ## Setup
-- git clone https://github.com/isuvorov/babel-starter-kit
--
+
+### Node
+```
+git clone https://github.com/isuvorov/babel-starter-kit
 npm i
 npm i -S express
 npm i -S isomorphic-fetch es6-promise
 npm i -S bluebird
 npm i -S lodash
 npm i -S cors
-
-- HTTPie - https://httpie.org/
+```
+### Console
+HTTPie - https://httpie.org/
 brew install httpie
