@@ -35,15 +35,26 @@
 
 ## Setup
 
-### Node
+### NodeJS Usefull Packages
 ```
 git clone https://github.com/isuvorov/babel-starter-kit
 npm i
-npm i -S express
 npm i -S isomorphic-fetch es6-promise
 npm i -S bluebird
 npm i -S lodash
 npm i -S cors
+npm i -S cookie-parser
+npm i -S graphql
+npm i -S winston
+
+//Express
+npm i -S express
+npm i -S express-async-router
+npm i -S express-graphql
+npm i -S express-jwt
+npm i -S express-ws
+npm i -S express-xml-bodyparser
+npm i -S express-winston
 ```
 ### Console
 HTTPie - https://httpie.org/
