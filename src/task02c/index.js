@@ -10,9 +10,9 @@ import _ from 'lodash';
 /** ****************************************************
  * Init Globals
  ******************************************************/
-const __DEV__ = true;
+const DEVMODE = true;
 const app = express();
-if (__DEV__) {
+if (DEVMODE) {
   app.use(cors());
 }
 
@@ -22,10 +22,11 @@ if (__DEV__) {
  ******************************************************/
 function canonize(url) {
   const urlSafe = _.toString(url);
-  const re = new RegExp('@?(https?:)?(//)?(www.)?((telegram|vk|vkontakte|twitter|github|instagram)[^/]*/)?([a-zA-Z0-9.]*)', 'i');
-  const username = urlSafe.match(re)[6];
+  const re = new RegExp('@?(https?:)?(//)?(([a-zA-Z_-])[^/]*/)?(@?)([a-zA-Z0-9_.]*)', 'i');
+  const username = urlSafe.match(re);
 
-  return `@${username}`;
+  console.log(username);
+  return `@${username[6]}`;
 }
 
 /** ****************************************************
@@ -37,14 +38,7 @@ app.get('/task02c', async (req, res) => {
     let urlStr = _.trim(req.query.username);
     urlStr = _.replace(urlStr, /\s+/g, '');
 
-    if (__DEV__) console.log(`->${urlStr}`);
-
     const UrlCanon = canonize(urlStr);
-    if (__DEV__) console.log(`->${UrlCanon}`);
-    if (__DEV__) console.log('------------------');
-
-    // const searchSymbols = new RegExp('[0-9_.-\/]');
-    // const foundSymbols = fullnameStr.match(searchSymbols);
 
     if (_.isEmpty(urlStr)) {
       return res.send('Invalid Url');
