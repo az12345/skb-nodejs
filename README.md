@@ -30,8 +30,14 @@
 * **URL** http://localhost:3000/task02c
 
 ## Урок #3: Express.js & MongoDB
+* **PATH** /src/prct031/index.js
+* **START** npm run prct031
+* **URL** http://localhost:3000/prct031
 
 ###Задача #3A: API 80286
+* **PATH** /src/task03a/index.js
+* **START** npm run task03a
+* **URL** http://localhost:3000/task03a
 
 ## Setup
 
@@ -46,6 +52,9 @@ npm i -S cors
 npm i -S cookie-parser
 npm i -S graphql
 npm i -S winston
+npm i -S mongoose
+npm i -S body-parser
+npm i -S validator
 
 //Express
 npm i -S express
