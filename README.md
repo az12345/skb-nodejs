@@ -55,6 +55,7 @@ npm i -S winston
 npm i -S mongoose
 npm i -S body-parser
 npm i -S validator
+npm i -S node-fetch
 
 //Express
 npm i -S express
